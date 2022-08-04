@@ -1,0 +1,73 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'animal.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$_Animal _$$_AnimalFromJson(Map<String, dynamic> json) => _$_Animal(
+      taxonid: json['taxonid'] as int,
+      scientificName: json['scientific_name'] as String?,
+      kingdom: json['kingdom'] as String?,
+      phylum: json['phylum'] as String?,
+      animalClass: json['class'] as String?,
+      order: json['order'] as String?,
+      family: json['family'] as String?,
+      genus: json['genus'] as String?,
+      mainCommonName: json['main_common_name'] as String?,
+      authority: json['authority'] as String?,
+      publishedYear: json['published_year'] as int?,
+      assessmentDate: json['assessment_date'] as String?,
+      category: json['category'] as String?,
+      criteria: json['criteria'] as String?,
+      populationTrend: json['population_trend'] as String?,
+      marineSystem: json['marine_system'] as bool?,
+      freshwaterSystem: json['freshwater_system'] as bool?,
+      terrestrialSystem: json['terrestrial_system'] as bool?,
+      assessor: json['assessor'] as String?,
+      reviewer: json['reviewer'] as String?,
+      aooKm2: json['aoo_km2'] as String?,
+      eooKm2: json['eoo_km2'] as String?,
+      elevationUpper: json['elevation_upper'] as int?,
+      elevationLower: json['elevation_lower'] as int?,
+      depthUpper: json['depth_upper'] as String?,
+      depthLower: json['depth_lower'] as String?,
+      errataFlag: json['errata_flag'] as String?,
+      errataReason: json['errata_reason'] as String?,
+      amendedFlag: json['amended_flag'] as String?,
+      amendedReason: json['amended_reason'] as String?,
+    );
+
+Map<String, dynamic> _$$_AnimalToJson(_$_Animal instance) => <String, dynamic>{
+      'taxonid': instance.taxonid,
+      'scientific_name': instance.scientificName,
+      'kingdom': instance.kingdom,
+      'phylum': instance.phylum,
+      'class': instance.animalClass,
+      'order': instance.order,
+      'family': instance.family,
+      'genus': instance.genus,
+      'main_common_name': instance.mainCommonName,
+      'authority': instance.authority,
+      'published_year': instance.publishedYear,
+      'assessment_date': instance.assessmentDate,
+      'category': instance.category,
+      'criteria': instance.criteria,
+      'population_trend': instance.populationTrend,
+      'marine_system': instance.marineSystem,
+      'freshwater_system': instance.freshwaterSystem,
+      'terrestrial_system': instance.terrestrialSystem,
+      'assessor': instance.assessor,
+      'reviewer': instance.reviewer,
+      'aoo_km2': instance.aooKm2,
+      'eoo_km2': instance.eooKm2,
+      'elevation_upper': instance.elevationUpper,
+      'elevation_lower': instance.elevationLower,
+      'depth_upper': instance.depthUpper,
+      'depth_lower': instance.depthLower,
+      'errata_flag': instance.errataFlag,
+      'errata_reason': instance.errataReason,
+      'amended_flag': instance.amendedFlag,
+      'amended_reason': instance.amendedReason,
+    };
